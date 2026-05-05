@@ -77,7 +77,6 @@ int main() {
     clock_t start, end;
     double cpu_time_used;
 
-    printf("=== RANDOM INPUT ===\n");
     for (i = 0; i < numN; i++) {
         int n = nValues[i];
         printf("\nn = %d\n", n);
